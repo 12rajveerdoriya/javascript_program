@@ -25,8 +25,8 @@ console.log(value===value2)
 
 /*
 
-1.array
-2.object 
-3.function
+1.array    //typeof object
+2.object  //typeof object
+3.function  //object function
 
 */
