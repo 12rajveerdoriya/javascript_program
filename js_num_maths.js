@@ -1,4 +1,3 @@
-/*
 
 const score=300;
 console.log(score);//300
@@ -25,10 +24,10 @@ const value2=6832469862364;
 console.log(value2.toLocaleString())//6,832,469,862,364[format in us ]
 console.log(value2.toLocaleString('en-IN'));//68,32,46,98,62,364 [in the format of indian values]
 
-*/
+
 //----------------maths------------------------
 
-/*
+
 console.log(Math);
 
 console.log(Math.abs(-4));
@@ -37,7 +36,6 @@ console.log(Math.floor(4.9));//4
 console.log(Math.min(3,5,1,7,8,7,2));//1
 console.log(Math.max(9,1,4,7,2,3));//9
 
-*/
 console.log(Math.random);
 console.log((Math.random()*10)+1);
 console.log(Math.floor(Math.random()*10)+1);
