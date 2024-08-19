@@ -32,7 +32,7 @@ console.log(mydate.toJSON());
 
 
 
-//create time 
+//create date
 let newZone=new Date(2024,4,23,5,3,24,23,24);//Date(year,month,day,hour,minute,second,milisecond);
 console.log(newZone.toString());//Thu May 23 2024 05:03:24 GMT+0530 (India Standard Time)
-console.log(newZone.toLocaleString());
+console.log(newZone.toLocaleString());//5/23/2024, 5:03:24 AM
