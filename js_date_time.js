@@ -36,3 +36,13 @@ console.log(mydate.toJSON());
 let newZone=new Date(2024,4,23,5,3,24,23,24);//Date(year,month,day,hour,minute,second,milisecond);
 console.log(newZone.toString());//Thu May 23 2024 05:03:24 GMT+0530 (India Standard Time)
 console.log(newZone.toLocaleString());//5/23/2024, 5:03:24 AM
+
+
+let yourdate= Date.now();
+console.log(yourdate);//1724050049816 [milisecond]
+
+console.log(Math.floor(Date.now()/1000));//1724050235
+ let newdate =new Date();
+ newdate.toLocaleString('default', {
+    weekday:"long"
+ });
